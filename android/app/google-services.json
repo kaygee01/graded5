@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "623214194503",
-    "project_id": "flashcardapp1",
-    "storage_bucket": "flashcardapp1.appspot.com"
+    "project_number": "44892140568",
+    "project_id": "flashh-a5aea",
+    "storage_bucket": "flashh-a5aea.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:623214194503:android:4696e835d09c3aa8aee662",
+        "mobilesdk_app_id": "1:44892140568:android:5a5830e9fe2bf3ef4eff6d",
         "android_client_info": {
-          "package_name": "flashcard.App"
+          "package_name": "com.flashcardapp"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDiWJiEX3qXBm7iv5tpvr13QxUC6BzfH5U"
+          "current_key": "AIzaSyBQknY-O0YMVbWk2xWRaovfenqCTuUx3JE"
         }
       ],
       "services": {

@@ -1,4 +1,4 @@
-import { db } from './firebaseConfig';
+import { db } from './FBconfig';
 
 export const addFlashcard = async (flashcard) => {
   await db.collection('flashcards').add(flashcard);
