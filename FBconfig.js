@@ -1,18 +1,18 @@
-import firebase from 'firebase/app';
+// Import necessary Firebase modules
+import { initializeApp } from 'firebase/app'; 
+import { getFirestore } from 'firebase/firestore'; 
+import { getAuth } from 'firebase/auth'; 
 import 'firebase/firestore';
 
+// Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBQknY-O0YMVbWk2xWRaovfenqCTuUx3JE",
-  authDomain: "flashh-a5aea.firebaseapp.com",
-  projectId: "flashh-a5aea",
-  storageBucket: "flashh-a5aea.appspot.com",
-  messagingSenderId: "44892140568 ",
-  appId: "1:44892140568:android:5a5830e9fe2bf3ef4eff6d"
+  
 };
 
-if (!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-}
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
-const db = firebase.firestore();
-export { db };
+const db = getFirestore(app); // Use getFirestore to initialize Firestore
+const auth = getAuth(app);
+
+export { db, auth };

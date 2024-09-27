@@ -6,6 +6,6 @@ const firebaseConfig = {
   authDomain: "flashh-a5aea.firebaseapp.com",
   projectId: "flashh-a5aea",
   storageBucket: "flashh-a5aea.appspot.com",
-  messagingSenderId: "44892140568 ",
-  appId: "1:44892140568:android:5a5830e9fe2bf3ef4eff6d"
+  messagingSenderId: "44892140568",
+  appId: "1:623214194503:android:4696e835d09c3aa8aee662"
 };
